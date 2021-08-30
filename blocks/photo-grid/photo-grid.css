@@ -6,7 +6,7 @@
 
   @media (min-width: 1280px) {
     .photo-grid {
-      width: 1184px;  
+      width: 1184px;
       align-self: center;
       grid-template-columns: repeat(4, 1fr);
       grid-gap: 16px;
