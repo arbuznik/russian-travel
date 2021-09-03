@@ -4,6 +4,13 @@
   padding: 0px 24px 24px;
 }
 
+@media (min-width: 1280px) {
+  .footer {
+    max-width: 1184px;
+    padding: 0 0 24px 0;
+  }
+}
+
 @media (max-width: 768px) {
   .footer {
     flex-direction: column;

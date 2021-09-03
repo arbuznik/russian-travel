@@ -2,6 +2,12 @@
   margin: 92px 0;
 }
 
+@media (min-width: 1280px) {
+  .page__intro {
+    margin-left: calc((100% - 984px) / 2);
+  }
+}
+
 @media (max-width: 768px) {
   .page__intro {
     margin: 88px 0;

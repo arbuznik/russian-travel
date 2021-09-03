@@ -8,9 +8,9 @@
 
 @media (min-width: 1280px) {
   .place {
-    grid-template-columns: 460px 1fr;
+    grid-template-columns: 460px 484px;
     column-gap: 40px;
-    padding: 0 148px;
+    padding: 0;
   }
 }
 
