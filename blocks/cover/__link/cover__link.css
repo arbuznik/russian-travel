@@ -1,6 +1,15 @@
 .cover__link {
-  display: block;
+  display: grid;
+  align-items: center;
   color: #FFF;
+  text-decoration: none;
+  margin: auto;
+}
+
+@media (min-width: 1280px) {
+  .cover__link {
+    max-width: 1184px;
+  }
 }
 
 .cover__link:hover .cover__overlay {

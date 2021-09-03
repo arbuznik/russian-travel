@@ -1,9 +1,10 @@
 .cover__background {
-  width: 100vw;
+  grid-area: 1/1;
+  width: 100%;
 }
 
 @media (min-width: 1280px) {
- .cover__background {
-   max-width: 1184px;
- } 
+  .cover__background {
+    max-width: 1184px;
+  }
 }

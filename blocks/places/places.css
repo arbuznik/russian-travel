@@ -4,8 +4,8 @@
   row-gap: 73px;
 }
 
-@media (max-width: 665px) {
- .places {
-   row-gap: 50px;
- } 
+@media (max-width: 700px) {
+  .places {
+    row-gap: 50px;
+  }
 }

@@ -3,3 +3,15 @@
   flex-direction: column;
   justify-content: flex-end;
 }
+
+@media (max-width: 768px) {
+  .place__website {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 425px) {
+  .place__website {
+    padding: 0 16px;
+  }
+}
