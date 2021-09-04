@@ -15,15 +15,3 @@
     max-width: 984px;
   }
 }
-
-@media (max-width: 425px) {
-  .lead__caption {
-    padding: 0 16px;
-  }
-}
-
-@media (max-width: 768px) {
-  .lead__caption {
-    padding: 0 24px;
-  }
-}
