@@ -1,25 +1,24 @@
 .intro {
   display: flex;
   flex-direction: column;
-  max-width: 690px;
-  padding: 0 48px 0;
+  padding: 0 16px 0;
 }
 
-@media (min-width: 1280px) {
+@media (min-width:768px) {
   .intro {
-    padding: 0;
-  }
-}
-
-@media (max-width:768px) {
-  .intro {
-    max-width: 100%;
     padding: 0 24px 0;
   }
 }
 
-@media (max-width: 425px) {
+@media (min-width: 1024px) {
   .intro {
-    padding: 0 16px 0;
+    width: 928px;
+    padding: 0;
+  }
+}
+
+@media (min-width: 1280px) {
+  .intro {
+    width: 984px;
   }
 }

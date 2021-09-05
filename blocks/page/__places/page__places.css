@@ -1,21 +1,15 @@
 .page__places {
-  margin: 92px 0;
+  margin: 64px 0 66px;
 }
 
-@media (min-width: 1280px) {
-  .page__places {
-    margin-left: calc((100% - 984px) / 2);
-  }
-}
-
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .page__places {
     margin: 88px 0 90px;
   }
 }
 
-@media (max-width: 425px) {
+@media (min-width: 1024px) {
   .page__places {
-    margin: 64px 0 66px;
+    margin: 92px 0;
   }
 }

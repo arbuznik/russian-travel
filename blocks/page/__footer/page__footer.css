@@ -1,21 +1,15 @@
 .page__footer {
-  margin: 92px 0 0;
+  margin: 64px 0 24px;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 768px) {
   .page__footer {
-    margin-left: calc((100% - 1184px) / 2);
+    margin: 88px 0 24px;
   }
 }
 
-@media (max-width: 768px) {
+@media (min-width: 1024px) {
   .page__footer {
-    margin: 88px 0 0;
-  }
-}
-
-@media (max-width: 425px) {
-  .page__footer {
-    margin: 64px 0 0;
+    margin: 92px 0 24px;
   }
 }

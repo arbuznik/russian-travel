@@ -4,4 +4,13 @@
   -webkit-font-smoothing: antialiased;
   background-color: #2A2C2F;
   color: #FFF;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+@media (min-width: 1280px) {
+  .page {
+    max-width: 1184px;
+  }
 }

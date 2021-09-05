@@ -3,11 +3,12 @@
   margin: 0;
   padding: 0;
   display: flex;
+  flex-direction: column;
+  row-gap: 32px;
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   .footer__links {
-    flex-direction: column;
-    row-gap: 32px;
+    flex-direction: row;
   }
 }

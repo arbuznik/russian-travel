@@ -1,11 +1,23 @@
 .places {
   display: flex;
   flex-direction: column;
-  row-gap: 73px;
+  row-gap: 50px;
 }
 
-@media (max-width: 700px) {
+@media (min-width: 768px) {
   .places {
-    row-gap: 50px;
+    row-gap: 73px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .places {
+    row-gap: 80px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .places {
+    row-gap: 80px;
   }
 }

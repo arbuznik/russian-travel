@@ -2,5 +2,16 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 48px 0 0;
+}
+
+@media (min-width: 1024px) {
+  .lead {
+    max-width: 928px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .lead {
+    max-width: 984px;
+  }
 }

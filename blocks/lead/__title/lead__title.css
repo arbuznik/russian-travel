@@ -1,29 +1,17 @@
+/* Здесь были адаптивные шрифты vw, но я поменял как по макету */
 .lead__title {
   font-weight: 900;
-  font-size: 96px;
-  line-height: 100px;
   text-align: center;
-  margin: 0 0 32px;
+  margin: 0;
   padding: 0;
+  font-size: 40px;
+  line-height: 44px;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 768px) {
   .lead__title {
-    max-width: 984px;
-  }
-}
-
-@media (max-width: 768px) {
-  .lead__title {
-    font-size: 12vw;
-    line-height: 13vw;
-  }
-}
-
-@media (max-width: 425px) {
-  .lead__title {
-    font-size: 40px;
-    line-height: 44px;
-    margin: 0 0 16px;
+    font-size: 96px;
+    line-height: 100px;
+    max-width: 720px;
   }
 }

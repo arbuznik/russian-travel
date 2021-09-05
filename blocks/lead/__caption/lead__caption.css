@@ -6,12 +6,17 @@
   letter-spacing: 1.5px;
   text-transform: uppercase;
   margin: 8px 0 0;
-  width: 90%;
-  align-self: center;
+  padding-left: 16px;
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 768px) {
   .lead__caption {
-    max-width: 984px;
+    padding-left: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .lead__caption {
+    padding-left: 0;
   }
 }
