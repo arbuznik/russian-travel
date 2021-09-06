@@ -6,6 +6,7 @@
   margin: auto;
   background-image: url(../../../images/cover-trains.jpg);
   background-size: cover;
+  background-position: center, center;
   min-height: 200px;
 }
 

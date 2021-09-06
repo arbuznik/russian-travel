@@ -10,6 +10,7 @@
     display: grid;
     grid-template-columns: 340px 1fr;
     column-gap: 28px;
+    row-gap: 48px;
     padding: 0 24px;
   }
 }
