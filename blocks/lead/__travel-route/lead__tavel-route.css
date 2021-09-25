@@ -1,0 +1,31 @@
+.lead__travel-route {
+  top: 15%;
+  left: 2%;
+  right: 2%;
+  position: absolute;
+  z-index: 1;
+}
+
+.lead__travel-route-path {
+  fill: none;
+  stroke: white;
+  stroke-width: 1px;
+  stroke-dasharray: 1382;
+  stroke-dashoffset: 1382;
+  animation: draw 20s linear forwards;
+}
+
+.lead__travel-route-city {
+  opacity: 0;
+}
+
+.lead__travel-route-city_is-shown {
+  transition: opacity 2s;
+  opacity: 1;
+}
+
+@keyframes draw {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
