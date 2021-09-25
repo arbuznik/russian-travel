@@ -39,7 +39,7 @@ async function trackOffset() {
         perm.classList.add('lead__travel-route-city_is-shown');
         break;
       case (getCurrentDashOffset() < 580):
-        glazov.classList.add('lead__trav60el-route-city_is-shown');
+        glazov.classList.add('lead__travel-route-city_is-shown');
         break;
       case (getCurrentDashOffset() < 770):
         kotelnich.classList.add('lead__travel-route-city_is-shown');
