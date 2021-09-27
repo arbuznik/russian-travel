@@ -12,7 +12,7 @@
   stroke-width: 1px;
   stroke-dasharray: 1382;
   stroke-dashoffset: 1382;
-  animation: draw 20s linear forwards;
+  animation: draw 15s linear forwards;
 }
 
 .lead__travel-route-city {
