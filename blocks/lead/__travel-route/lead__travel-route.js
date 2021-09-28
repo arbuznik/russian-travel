@@ -17,8 +17,7 @@ const OFFSETS = [
 ];
 
 const cityElements = OFFSETS.map((item) => {
-  let cityElement = document.querySelector(`.lead__travel-route-city_name_${item.city}`);
-  return cityElement;
+  return cityElement = document.querySelector(`.lead__travel-route-city_name_${item.city}`);
 })
 
 function getCurrentDashOffset() {
@@ -28,9 +27,9 @@ function getCurrentDashOffset() {
 
 async function trackOffset() {
   let currentOffset = getCurrentDashOffset();
-  i = 1;
+  let i = 1;
   while (currentOffset > 0) {
-    let lastElement = OFFSETS[OFFSETS.length - i];
+    const lastElement = OFFSETS[OFFSETS.length - i];
 
     if (currentOffset < lastElement.offset) {
       cityElements[OFFSETS.length - i].classList.add('lead__travel-route-city_is-shown');
